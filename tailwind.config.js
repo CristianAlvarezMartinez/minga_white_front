@@ -6,9 +6,10 @@ module.exports = {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      screens: {'mobile': '320px'},
+    },
   },
   variants: {},
   plugins: []
 }
-
