@@ -4,15 +4,16 @@ import images from './assets/images/home_img.png'
 import imgFooter from './assets/images/imgFooter.png'
 import { AiFillFacebook, AiOutlineTwitter,AiFillYoutube} from "react-icons/ai";
 import {BsVimeo} from 'react-icons/bs'
-
+import apiUrl from '../api'
 
 import './index.css'
 
 function App() {
+  console.log(apiUrl)
   return (
     <>
       <div className='fixed top-0 left-0 bottom-0 right-0 bg-black grid overflow-auto '>
-        <div className='mobile:hidden 2xl:block absolute violetDeg h-[115%] w-[70%] -z-10 -right-[18%]' >
+        <div className='mobile:hidden 2xl:block absolute violetDeg h-[115%] w-[50%] -z-10 right-0' >
 
         </div>
         <nav className='flex justify-between align-center px-4 mt-4 h-14 | lg:border-b-2 lg:border-white/25 lg:h-24 | md:h-16 md:px-8 md:mt-8 | 2xl:h-28 2xl:px-16 2xl:'>
