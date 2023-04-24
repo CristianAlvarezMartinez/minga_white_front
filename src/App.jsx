@@ -1,5 +1,5 @@
 import menu from './assets/images/Menu.png'
-import logo from './assets/images/logo.png'
+import logo from './assets/images/Logo.png'
 import images from './assets/images/home_img.png'
 import imgFooter from './assets/images/imgFooter.png'
 import { AiFillFacebook, AiOutlineTwitter,AiFillYoutube} from "react-icons/ai";
