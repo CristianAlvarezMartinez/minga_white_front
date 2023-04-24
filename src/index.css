@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer utilities {
     .violetDeg {
-        background: radial-gradient( #4338CA, #000);
+        background: radial-gradient( #4438ca58 , #000 75%);
     }
 
     .borderFooter {
