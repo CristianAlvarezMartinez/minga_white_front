@@ -12,6 +12,9 @@ function App() {
   return (
     <>
       <div className='fixed top-0 left-0 bottom-0 right-0 bg-black grid overflow-auto '>
+        <div className='mobile:hidden 2xl:block absolute violetDeg h-[115%] w-[70%] -z-10 -right-[18%]' >
+
+        </div>
         <nav className='flex justify-between align-center px-4 mt-4 h-14 | lg:border-b-2 lg:border-white/25 lg:h-24 | md:h-16 md:px-8 md:mt-8 | 2xl:h-28 2xl:px-16 2xl:'>
             <img src={menu} alt="menu" className='h-12 | md:h-14 | 2xl:h-20'/>
             <img src={logo} alt="Logo imagen" className='w-24 | md:w-28 | lg:mb-7 | 2xl:w-40 2xl:h-20' />
@@ -52,8 +55,8 @@ function App() {
                 <a href="https://twitter.com/home" target='_blank'><BsVimeo /></a>
                 <a href="https://www.youtube.com" target='_blank'><AiFillYoutube /></a>
               </div>
-              <button className='bg-slate-200 py-1.5 px-10 rounded-lg 2xl:w-[100%] 2xl:py-3 2xl:px-16 2xl:text-2xl'>Donate 💜</button>
-
+              <button className='bg-slate-200 py-1.5 px-10 rounded-lg | 2xl:w-[100%] 2xl:py-3 2xl:px-16 2xl:text-2xl'>Donate 💜</button>
+ 
             </div>
 
             </div>
