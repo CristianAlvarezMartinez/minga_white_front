@@ -2,6 +2,7 @@ import images from '../assets/images/home_img.png'
 export default function Hero() {
   return (
    <>
+    <div className='mobile:hidden 2xl:block absolute violetDeg h-[115%] w-[50%] -z-10 right-0' ></div>
     <h1 className='mobile:hidden | lg:block text-white font-bold text-center text-5xl my-12 | lg:my-16 | xl:text-6xl | 2xl:text-8xl 2xl:my-20'>Best manga reader</h1>
     <div className=' grid grid-cols-4'>
         <div className='min-[320px]:hidden lg:block col-span-2 pt-6 h-[75vh] | 2xl:h-[90vh]'>

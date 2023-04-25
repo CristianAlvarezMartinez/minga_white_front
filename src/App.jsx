@@ -11,10 +11,9 @@ function App() {
   return (
     <>
       <div className='fixed top-0 left-0 bottom-0 right-0 bg-black grid overflow-auto '>
-        <div className='mobile:hidden 2xl:block absolute violetDeg h-[115%] w-[50%] -z-10 right-0' ></div>
+        <Navbar /> 
         <Hero />
-       <Navbar /> 
-       <Footer /> 
+        <Footer /> 
           
       </div>
     </>
