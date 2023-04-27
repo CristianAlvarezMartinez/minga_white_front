@@ -5,7 +5,7 @@ import {BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill} from 'react-icons
 
 export default function Carrousel() {
     useEffect(
-        ()=>{ axios(apiUrl+'heroImgs')
+        ()=>{ axios(apiUrl+'imgscrl')
                 .then(res=> setImages(res.data.imgs))
                 .catch(err=> console.log(err)) }, []
     )
